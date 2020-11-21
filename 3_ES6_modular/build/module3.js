@@ -17,10 +17,10 @@ function getLaoliu() {
 	console.log(person);
 }
 
-//统一暴露(精简版)
-// export {school,person,getLaoliu}
+//统一暴露(精简版)---用的多
+exports.school = school;
+exports.person = person;
+exports.getLaoliu = getLaoliu;
 
 //统一暴露(完整版)
-exports.a = school;
-exports.b = person;
-exports.c = getLaoliu;
+// export {school as a,person as b,getLaoliu as c}
