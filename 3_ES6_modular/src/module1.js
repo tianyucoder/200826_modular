@@ -8,8 +8,6 @@ export const msg = 'hello,0826'
 export function showData(){
 	console.log(data);
 }
-
 export function showMsg(){
 	console.log(msg);
 }
-
